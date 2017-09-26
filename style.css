@@ -16,7 +16,9 @@
 	text-align: center;
 	margin-top: 2px;
 	border: black 2px solid;
-	background-color: #b2b266;
+    background-color: #b2b266;
+    text-align: left;
+   padding-left: 50px;
 }
 .column2{
     width: 50%;
@@ -27,7 +29,8 @@
 	text-align: center;
 	margin-top: 2px;
 	border: black 2px solid;	
-	background-color: #b2b266;
+    background-color: #b2b266;
+    text-align: right;
 }
 textarea {
     width: 100%;
@@ -93,3 +96,16 @@ textarea {
 	padding-bottom: 8px;
 	width: 80px;
 }
+button{
+    background-color: blue;
+    color: white;
+}
+.tweetbtn{
+    float: right;
+}
+.btn-default2{
+    background-color: #00ccff;
+    float: left;  
+    margin-left: 5px;
+}
+
