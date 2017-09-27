@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!-- Developer:   Perry Ellis
+     Program:     tweeten
+     Date:        9-23-17
+    Purpose:      Looks like twitter one day it may act like twitter
+   -->
 <html lang="en"> 
     <head> 
          <meta charset="utf-8">
@@ -11,111 +16,138 @@
           <title> Tweeten </title>
     </head>
     <body> 
-        <div class="container"> 
+        
 
-                <header> 
- <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Tweeten</a>
-    </div>
+   <header> 
+    <!-- Start of navbar -->
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+             </button>
+              <a class="navbar-brand" href="#">Tweeten</a> 
+          </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Notifactions</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Messages</a></li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-          <button type="button" class="btn btn-default" aria-label="Left Align">
-  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-</button>
-            <img class="imagenav" src="allie&i.jpg" alt="My amazing wife and I" >
-        </div>
-        <button type="submit" class="btn btn-default1">Tweet</button>
-      </form> 
+           <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+             <li class="active"><a href="#"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Notifactions</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Messages</a></li>
+          </ul>
+            <form class="navbar-form navbar-right">
+             <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                   <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+                <img class="imagenav" src="allie&i.jpg" alt="My amazing wife and I" >
+             </div>
+             <button type="submit" class="btn btn-default1">Tweet</button>
+            </form> 
     
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-                </header>
-                <div class="columnCantain"> 
-                    <div class="column1">
-                        <img class="image" src="allie&i.jpg" alt="My amazing wife and I" >
-                        <h1> Perry Ellis </h1>
-                        <h6>@PerryEllis</h6>
-                        <p>Full time student <br> at OTC. <br>You should find a friend</p>
-                        
-                        <h4>Springfield, MO <br>Joined September 2017 <br>0 Photos or Videos</h4>
-                    </div>
-                     <div class="column2">
-                            <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                      <h3 class="panel-title">Compose new Tweet</h3>
-                                    </div>
-                                    <div class="panel-body">
-                                            <form>
-                                                    <textarea> </textarea>
-                                             </form>   
-                                             <div class="photobtn">                                       
-                                             <button type="submit" class="btn btn-default2"> <span class="glyphicon glyphicon-picture" aria-hidden="true"></span></button>
-                                             <button type="submit" class="btn btn-default2"> <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></button>
-                                            </div> 
+         </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      
+   </header>
+        <!--will be the left side column  -->
+        <div class="column1">
+          <img class="imagemain" src="allie&i.jpg" alt="My amazing wife and I" >
+          <h1> Perry Ellis </h1>
+           <h6>@PerryEllis</h6>
+            <p>Full time student at OTC. <br>You should find a friend.</p>
+               <h4><span class="glyphicon glyphicon-map-marker" aria-hidden="true"> Springfield, MO <br>
+               <span class="glyphicon glyphicon-link" aria-hidden="true"><a href="https://enge.me/"> https://enge.me/</a>
+               <span class="glyphicon glyphicon-calendar" aria-hidden="true"> Joined September 2017 <br>
+              <span class="glyphicon glyphicon-picture" aria-hidden="true"> 0 Photos or Videos</h4>
+        </div>
 
-                                             <div class="tweetbtn">
-                                             <button type="submit" class="btn btn-default1">Tweet</button>
-                                             </div>
-                                    </div>
-                                  </div>
+        <!--will be the middle column  -->
+          <div class="column2">
+            <!--start of tweet panle  -->
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h2 class="panel-title">Compose new Tweet</h2>
+               </div>
+               <!--tweet body  -->
+                <div class="panel-body">
+                   <form>
+                     <textarea> </textarea>
+                  </form>   
+                   <div class="photobtn">                                       
+                     <button type="submit" class="btn btn-default2"> <span class="glyphicon glyphicon-picture" aria-hidden="true"></span></button> <!--photo btn  -->
+                     <button type="submit" class="btn btn-default2"> <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></button><!--map btn  -->
+                   </div> 
+                    <div class="tweetbtn">
+                     <div class="textcount">
+                      <h4>140</h4> <!-- text count  -->
                      </div>
-                      <div class="column3">
-                            <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                      <h3 class="panel-title">Your Tweet Activity</h3>
-                                    </div>
-                                    <div class="panel-body">
-                                     <p>0 Tweets what are you doing with your life</p>
-                                    </div>
-                                  </div>
-
-                                  <div class="panel panel-default">
-                                        <!-- Default panel contents -->
-                                        <div class="panel-heading">Who to Follow</div>
-                                        <!-- <div class="panel-body">
-                                          <p>...</p>
-                                        </div> -->
-                                      
-                                        <!-- List group -->
-                                        <ul class="list-group">
-                                          <li class="list-group-item"><img class="followimg" src="otc.jpg" alt="OTC" >
-                                            <h5>@OTCedu</h5>
-                                            <a href="https://twitter.com/OTCedu?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor class"="button">Follow</a></li>
-
-                                          <li class="list-group-item"><img class="followimg" src="maingear.jpg" alt="Maingear" >
-                                            <h5>@MAINGEAR</h5>
-                                            <a href="https://twitter.com/MAINGEAR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"="button">Follow</a></li>
-
-                                          <li class="list-group-item"><img class="followimg" src="chief.jpg" alt="KC Chiefs" >
-                                            <h5>@Chiefs</h5>
-                                            <a href="https://twitter.com/Chiefs?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"="button">Follow</a></li>
-                                        
-                                        </ul>
-                                      </div>
-                 
+                      <button type="submit" class="btn btn-default1">Tweet</button> <!-- tweet btn  -->
                     </div>
                 </div>
-        </div>
-            
+            </div>
 
+            <!-- is where the tweeted tweet shows up  -->
+             <div class="retweet">
+              <div class="panel panel-default">
+                 <div class="panel-heading">
+                  <h4 class="panel-title">Tweets &#9679; Tweets &amp; Replies &#9679; Media</h4> <!-- pannel header -->
+                 </div>
+                  <div class="panel-body">
+                    <p>
+                     <img class="tweetimage" src="allie&i.jpg" alt="My amazing wife and I" >
+                     <div class="tweetnamedate"> <div class="tweetname"><h4>Perry Ellis 	&nbsp;</h5></div> <div class="tweetdate"><h6>  &#64;perryellis &#9679; Sep 20</h6></div> </div>
+                      <div class="retweetmessage"> Wow, this class has been an amazing learning experince! #otc #webDev2</div> 
+                        </p>
+                   </div>
+                   <!-- tweet info  -->
+                    <div class="tweetreply">
+                     <div class="reply"><span class="glyphicon glyphicon-comment" aria-hidden="true">32 </div> 
+                      <div class="retweet"><span class="glyphicon glyphicon-retweet" aria-hidden="true">1.1k </div> 
+                       <div class="likes"><span class="glyphicon glyphicon-heart" aria-hidden="true">50 </div> 
+                        <div class="message"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> </div> 
+                    </div>             
+                  </div>
+                 </div>
+               </div>
+
+               <!--will be the right side column  -->
+               <div class="column3">
+                <div class="panel panel-default">
+                   <div class="panel-heading">
+                      <h3 class="panel-title">Your Tweet Activity</h3>
+                   </div>
+                  <div class="panel-body">
+                    <p>You've tweeted once, dont be too proud pf yourself.</p>
+                  </div>
+                 </div>
+                   <div class="panel panel-default">
+                     <!-- Default panel contents -->
+                      <div class="panel-heading">Who to Follow</div>  
+                       <!-- List group of people to follow-->
+                        <ul class="list-group">
+                          <li class="list-group-item"><img class="followimg" src="otc.jpg" alt="OTC" >
+                            <h5>@OTCedu</h5>
+                            <button type="submit" class="btn btn-defaultfollow">Follow</button>
+
+                          <li class="list-group-item"><img class="followimg" src="eu.png" alt="Maingear" >
+                           <h5>@EvangelUniv</h5>
+                           <button type="submit" class="btn btn-defaultfollow">Follow</button>
+
+                          <li class="list-group-item"><img class="followimg" src="you.jpg" alt="KC Chiefs" >
+                           <h5>@youyuxi</h5>
+                           <button type="submit" class="btn btn-defaultfollow">Follow</button>
+                                        
+                       </ul>
+                      </div>
+                 
+                </div>
+            
     </body>
 </html>

@@ -1,10 +1,4 @@
-.container {
-	background-color: #4d4d4d;
-	width: 90%;
-	margin: auto;
-	border: #000000 8px solid;
-	padding: 5px;
-}
+/* Style sheet that will be used in the tweeten index page */
 
 .columnCantain{
     margin-top: 80px;
@@ -14,23 +8,20 @@
     float: left;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 2px;
-	border: black 2px solid;
-    background-color: #b2b266;
+    margin-left: 10px;
+	
     text-align: left;
-   padding-left: 50px;
+    padding-left: 50px;
 }
 .column2{
     width: 50%;
     float: left;
-   margin-left: 80px;
-	text-decoration: underline;
+    align-self: auto;
 	font-size: 25px;
 	text-align: center;
-	margin-top: 2px;
-	border: black 2px solid;	
-    background-color: #b2b266;
-    text-align: right;
+	margin-left: 4%;
+	
+  
 }
 textarea {
     width: 100%;
@@ -47,9 +38,8 @@ textarea {
     width: 20%;
     float: right;
 	font-size: 20px;
-	margin-top: 2px;
-	border: black 2px solid;	
-	background-color: #b2b266;
+    margin-right: 10px;
+
 }
 .panel{
   
@@ -62,7 +52,7 @@ textarea {
   .button {
     background-color: white;
     border: none;
-    color: blue;
+    color: #0066ff;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -71,22 +61,25 @@ textarea {
     margin: 4px 2px;
     cursor: pointer;
 }
-.image {
+.imagemain {
     border-radius: 50%;
-	height: 120px;
+	height: 180px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 8px;
-	width: 180px;
+    width: 180px; 
+    padding:3px;
+    border:1px solid gray;
+    background-color:white;
 }
 .followimg{
     float: left;
     border-radius: 50%;
-	height: 80px;
+	height: 70px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 8px;
-	width: 100px;
+	width: 90px;
 }
 .imagenav{
     border-radius: 50%;
@@ -94,10 +87,10 @@ textarea {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 8px;
-	width: 80px;
+	width: 70px;
 }
 button{
-    background-color: blue;
+    background-color: #0066ff;
     color: white;
 }
 .tweetbtn{
@@ -109,3 +102,63 @@ button{
     margin-left: 5px;
 }
 
+.btn-defaultfollow{
+    background-color: #00ccff;
+}
+.textcount{
+    float: left;
+    margin-right: 5px;
+}
+h2{
+    font-weight: bold;
+}
+h4{
+    text-align: left;
+ 
+}
+.tweetname{
+   
+    font-weight: bold;
+   display: inline;
+   float: left;
+}
+.tweetdate{
+    display: inline;
+    float: left;
+ 
+}
+.retweetmessage{ 
+    padding-right: 200px;
+  font-size: 15px;
+ 
+float: left;
+}
+.tweetimage {
+    float: left;
+    border-radius: 50%;
+	height: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+    width: 120px; 
+}
+
+.reply{
+    
+    display: inline;
+   
+  
+}
+.retweet{
+    display: inline;
+   
+}
+.likes{
+    display: inline;
+   
+}
+.message{
+    display: inline;
+    margin-right: 60%;
+   
+}
