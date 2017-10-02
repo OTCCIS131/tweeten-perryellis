@@ -1,6 +1,5 @@
-var x = document.getElementsByClassName("glyphicon glyphicon-heart");
+let buttons = document.getElementsByClassName("glyphicon glyphicon-heart");
 
-let buttons = x;
 buttons = Array.from(buttons)
 buttons.forEach(button => {
     button.addEventListener("click", e =>{
