@@ -10,20 +10,15 @@
 //     })
 // })
 
-//jquery
-// $("#like").click(function(){
-//     num = parseInt($(".glyphicon ").text());
-//     $(".glyphicon glyphicon-heart").text(num+1);
-// })
 
-
+// JQuery for each button
 $(function(){
-    $('.glyphicon').click(event => {
-        console.log(event)
+    $('.glybtn').click(event => {
+     
         let currentCount = $(event.target).next().text()
-        currentCount = parseInt(currentCount)
-         newCount = currentCount + 1
+       let newCount = parseInt(currentCount) + 1
+ 
+        $(event.target).next().text(newCount)
 
-       console.log(newCount)
     })
 })

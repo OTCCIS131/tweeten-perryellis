@@ -47,7 +47,7 @@ textarea {
     
       width: 90%;
   }
-  .button {
+  /* .button {
     background-color: white;
     border: none;
     color: #0066ff;
@@ -58,7 +58,7 @@ textarea {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
+} */
 .imagemain {
     border-radius: 50%;
 	height: 180px;
@@ -87,12 +87,13 @@ textarea {
 	padding-bottom: 8px;
 	width: 70px;
 }
-button{
+.tweetbtns{
     background-color: #0066ff;
     color: white;
 }
 .tweetbtn{
     float: right;
+    
 }
 .btn-default2{
     background-color: #00ccff;
@@ -102,7 +103,7 @@ button{
 
 .btn-defaultfollow{
     background-color: #00ccff;
-}
+} 
 .textcount{
     float: left;
     margin-right: 5px;
@@ -158,4 +159,9 @@ h4{
 .message{
     display: inline;
     margin-right: 60%;  
+}
+.glybtn{
+  
+   background-color: white;
+   border: none;
 }
