@@ -21,4 +21,14 @@ $(function(){
         $(event.target).next().text(newCount)
 
     })
+
+})
+
+$(function(){
+    $('#newtweet').submit(function (e) {
+     e.preventDefault()
+
+
+    })
+
 })
