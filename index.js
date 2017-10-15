@@ -22,16 +22,16 @@ $(function(){
 
     })
 
-})
 
-$(function(){
-    $('#newtweet').submit(function (e) {
-     e.preventDefault()
-
-     let currentCount = $(event.target).next().text()
-     let newCount = parseInt(currentCount) + 1
-
-      $(event.target).next().text(newCount)
+    $('.tweetbtns').click(function(event) {
+        event.preventDefault()
+        let newTweet = $(".newest").val()
+        if (newTweet.trim() == '') return
+    
+    $('.tweeter').clone().insertAfter(".tweeter")
+    $("#retweetmessage").replaceWith(newTweet)
     })
 
+
 })
+
